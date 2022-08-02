@@ -95,7 +95,8 @@
     .navbar .rightSide button {
     display: none;
     }
-.hiddenLinks {
+    
+    .hiddenLinks {
     display: none;
     }
 }
