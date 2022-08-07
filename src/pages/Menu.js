@@ -8,10 +8,10 @@
         <div className="menu">
         <h1 className="menuTitle">Our Menu</h1>
         <div className="menuList">
-            {MenuList.map((menuItem, key) => {
+            {MenuList.map((menuItem) => {
             return (
                 <MenuItem
-                key={key}
+                key={menuItem.id}
                 image={menuItem.image}
                 name={menuItem.name}
                 price={menuItem.price}
